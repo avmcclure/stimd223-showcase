@@ -1,4 +1,5 @@
 def exact_change(amount):
+    #This one is for tests so you don't have to deal with mocking input in unittest 
     cents = round(amount * 100) #Dollars to cents
 
     #Defines currency both int and str
